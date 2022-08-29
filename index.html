@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bizary | Tu libreria</title>
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QV3FRM3NRX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QV3FRM3NRX');
+    </script>
+
+</head>
+<body>
+
+
+<!------------------------------------------------ HEADER ------------------------------------------------>
+<header class="fixed-top">
+    <nav class="navbar navbar-expand-lg container-fluid p-2">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo_bizary.png" alt="Brizary, tu libreria Online"></a>  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>  
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">  
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="harry_potter.html">Catálogo</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Novedades</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Ofertas</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Foro</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Ayuda</a>
+                    </li>  
+                </ul>
+                <form class="d-flex me-1" role="search">
+                    <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search" size="10">
+                    <button class="btn btn-outline-success" type="submit"><img class="buscar" src="img/buscador.png" alt=""></button>
+                </form>
+                <div class="navbar-img">
+                    <img src="img/carrito.png" alt="">
+                    <img src="img/usuario.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<!----------------------------- BANNER ----------------------------->
+<section class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">  
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">  <img src="img/Banner1.jpg" class="d-block w-100" alt="...">  </div>
+            <div class="carousel-item">  <img src="img/Banner2.jpg" class="d-block w-100" alt="...">  </div>  
+            <div class="carousel-item">  <img src="img/Banner3.jpg" class="d-block w-100" alt="...">  </div>  
+        </div>  
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">  
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+            <span class="visually-hidden">Previous</span>  
+        </button>  
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">  
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+            <span class="visually-hidden">Next</span>  
+        </button> 
+    </div>
+</section>
+
+
+
+<!------------------------------------------------ MAIN ------------------------------------------------>
+<main role="main container-fluid">
+
+
+
+        <!----------------------------- NOVEDADES ----------------------------->        
+        <section class="novedades container">
+            <h1 class="gris_30_600">Novedades</h1>
+            <div class="cartas">
+                <div class="contenedor_cartas"></div>
+            </div>
+        </section>
+
+
+
+        <!----------------------------- RECOMENDACIONES ----------------------------->
+        <section class="recomendados container">
+            <H1 class="verde_30_600">Te recomendamos estos librazos ;)</H1>
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col recomendados_cartas p-0 transform_img">
+                        <img src="img/addie.png" alt="La Vida Invisible de Addie LaRue">
+                        <h6 class="titulo_libros">La Vida Invisible de Addie LaRue</h6>
+                        <h6 class="precio_descuento">$3.250</h6>
+                    </div>
+                    <div class="col recomendados_cartas p-0 transform_img">
+                        <img src="img/camino.png" alt="El Camino de los Reyes">
+                        <h6 class="titulo_libros">El Camino de los Reyes</h6>
+                        <h6 class="precio_descuento">$6.499</h6>
+                    </div>
+                    <div class="col recomendados_cartas p-0 transform_img">
+                        <img src="img/estrellas.png" alt="Dormir en un Mar de Estrellas">
+                        <h6 class="titulo_libros">Dormir en un Mar de Estrellas</h6>
+                        <h6 class="precio_descuento">$4.499</h6>
+                    </div>
+                    <div class="col recomendados_cartas p-0 transform_img">
+                        <img src="img/medialuna.png" alt="Ciudad Medialuna">
+                        <h6 class="titulo_libros">Ciudad Medialuna</h6>
+                        <h6 class="precio_descuento">$7.899</h6>
+                    </div>
+                    <div class="col recomendados_cartas p-0 transform_img">
+                        <img src="img/tronos.png" alt="Juego de Tronos. Canción de Hielo y Fuego">
+                        <h6>Juego de Tronos. Canción de Hielo y Fuego</h6>
+                        <h6>$7.299</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!----------------------------- SALE AGOSTO ----------------------------->
+        <section class="sale container">
+           
+            <div class="row">
+                <article class="col-6 sale_titulos"> <!-- Referencia al texto - izquierda -->
+                    <H1 class="verde_40_700">SALE AGOSTO</H1>
+                    <H3 class="gris_24_600">20% en manga y comics seleccionados</H3>
+                    <h6 class="lo_quiero">¡Lo quiero</h6>
+                </article>
+    
+                <article class="col-6 sale_libros"> <!-- Referencia a los libros - derecha -->
+                    <div class="col libro_sale transform_img">
+                        <img class="img_sale" src="img/naruto.png" alt="Naruto 01">
+                        <h6 class="titulos_libros">Naruto 01</h6>
+                        <h6 class="precio_descuento">$1200</h6>
+                        <h6 class="precio_real">$1.699</h6>
+                    </div>
+                    <div class="col libro_sale transform_img">
+                        <img class="img_sale" src="img/daredevil.png" alt="Daredevil 01">
+                        <h6 class="titulos_libros">Daredevil 01</h6>
+                        <h6 class="precio_descuento">$950</h6>
+                        <h6 class="precio_real">$1299</h6>
+                    </div>
+                    <div class="col libro_sale transform_img">
+                        <img class="img_sale" src="img/akira.png" alt="Akira 01">
+                        <h6 class="titulos_libros">Akira 01</h6>
+                        <h6 class="precio_descuento">$2.999</h6>
+                        <h6 class="precio_real">$3.699</h6>
+                    </div>
+                </article>
+            </div>
+            
+        </section>
+        
+
+
+        <!----------------------------- MÁS OFERTAZAS ----------------------------->
+        <section class="ofertazas container">
+            <div class="row">
+                <H1 class="gris_30_600">¡Tenemos más Ofertazas!</H1>
+                <a href="#">Ver todo</a>
+            </div>
+            
+            <div class="row">
+                <article class="col sale_libros"> <!-- Referencia a los libros - derecha -->
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/tolkien.png" alt="Beren y Lúthien">
+                        <h6 class="titulos_libros">Beren y Lúthien</h6>
+                        <h6 class="precio_descuento">$2.999</h6>
+                        <h6 class="precio_real">$3.299</h6>
+                    </div>
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/kaisen.png" alt="Jujutsu Kaisen 01">
+                        <h6 class="titulos_libros">Jujutsu Kaisen 01</h6>
+                        <h6 class="precio_descuento">$1.250</h6>
+                        <h6 class="precio_real">$1.850</h6>
+                    </div>
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/batman.png" alt="Batman. La broma Asesina">
+                        <h6 class="titulos_libros">Batman. La broma Asesina</h6>
+                        <h6 class="precio_descuento">$3.520</h6>
+                        <h6 class="precio_real">$4.150</h6>
+                    </div>
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/rueda.png" alt="La Rueda del Tiempo">
+                        <h6 class="titulos_libros">La Rueda del Tiempo</h6>
+                        <h6 class="precio_descuento">$3.599</h6>
+                        <h6 class="precio_real">$4.299</h6>
+                    </div>
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/imperio.png" alt="El Imperio Final">
+                        <h6 class="titulos_libros">El Imperio Final</h6>
+                        <h6 class="precio_descuento">$6.999</h6>
+                        <h6 class="precio_real">$7.399</h6>
+                    </div>
+                    <div class="col col_ofertazas transform_img">
+                        <img class="img_sale" src="img/civilwar.png" alt="Civil War">
+                        <h6 class="titulos_libros">Civil War</h6>
+                        <h6 class="precio_descuento">$1.199</h6>
+                        <h6 class="precio_real">$1.999</h6>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+        <!----------------------------- ICONOS ----------------------------->
+        <section class="condiciones_pago_envio container">
+            <div class="container iconos">
+                <div class="row">
+                    <div class="col col-md-3 col-sm-6 col-6">
+                        <img src="img/como_comprar.png" alt="">
+                        <h6 class="mb-0">¿Cómo comprar?</h6>
+                    </div>
+                    <div class="col col-md-3 col-sm-6 col-6">
+                        <img src="img/envios.png" alt="">
+                        <h6 class="mb-0">Envíos</6>
+                    </div>
+                    <div class="col col-md-3 col-sm-6 col-6">
+                        <img src="img/medios_pago.png" alt="">
+                        <h6 class="mb-0">Medios de Pago</h6>
+                    </div>
+                    <div class="col col-md-3 col-sm-6 col-6">
+                        <img src="img/descuentos.png" alt="">
+                        <h6 class="mb-0">Promos Bancarias</6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!----------------------------- CATEGORIAS ----------------------------->
+        <section class="categorias container">
+            <div class="row">
+                <div class="col">
+                    <h6>Manga</h6>
+                </div>
+                <div class="col">
+                    <h6>Comic</h6>
+                </div>
+                <div class="col">
+                    <h6>Aventura</h6>
+                </div>
+                <div class="col">
+                    <h6>Fantasia</h6>
+                </div>
+                <div class="col">
+                    <h6>Ciencia Ficción</h6>
+                </div>
+                <div class="col">
+                    <h6>Romance</h6>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!----------------------------- FORO + LECTURAS ----------------------------->
+        <section class="foro_lecturas container">
+            <div class="row px-4">
+                <article class="foro1 col-6"> <!-- Referencia al cuadro izquierdo -->
+                    <h1 class="blanco_24_600">Foro</h1>
+                    <div>
+                        <a href="#"><h6>Me recomiendan un libro para salir del bloqueo lector</h6></a>
+                        <a href="#"><h6>Recomendación: Mistborn de Brandon Sanderson</h6></a>
+                        <a href="#"><h6>Me ayudan a encontrar este libro?</h6></a>
+                    </div>
+                </article>
+    
+                <article class="foro2 col-6"> <!-- Referencia al cuado derecho -->
+                    <h1 class="blanco_24_600">¿Te gustaria compartir tus lecturas con otros lectores en Nuestro Foro?</h1>
+                    <div>
+                        <h6>¡Quiero sumarme!</h6>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+
+
+<!------------------------------------------------ FOOTER ------------------------------------------------>
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-3 ">
+                    <img src="img/logo_bizary_blanco.png" alt="" class="logo_footer">
+                    <div class="footer_1">
+                        <a href="#" class="blanco_18_600" >APP</a>
+                        <a href="#" class="blanco_18_600" >Conocenos</a>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-3 footer_2">
+                    <h6 class="blanco_18_600">Información</h6>
+                    <a href="#" class="interlineado_footer">Términos y Condiciones</a>
+                    <a href="#" class="interlineado_footer">Privacidad</a>
+                    <a href="#" class="interlineado_footer arrepentimiento">Botón de Arrepentimiento</a>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-3">
+                    <h6 class="blanco_18_600">Contáctanos</h6>
+                    <h6 class="interlineado_footer">Mitre 124, BsAs, Argentina</h6>
+                    <h6 class="interlineado_footer">+54 9 1144556677</h6>
+                    <h6 class="interlineado_footer">bizary@librerias.com</h6>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-3 redes-sociales">
+                    <h6 class="blanco_18_600">Redes Sociales</h6>
+                    <a href="#"><img src="img/instagram.png" alt=""></a>
+                    <a href="#"><img src="img/facebook.png" alt=""></a>
+                    <a href="#"><img src="img/twitter.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col derechos_reservados">
+                    <h6>Todos los derechos reservados - Bizary by Digit@lers - Grupo 3</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
